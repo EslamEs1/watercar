@@ -17,7 +17,7 @@
   ===========================================================================
 -->
 
-# Water Cart Landing Page Constitution
+# Healthy Choice Landing Page Constitution
 
 ## Core Principles
 
