@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.swo
+
+# Editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build output (if Tailwind CLI used later)
+dist/
+
+# Specification artifacts are tracked but temp files are not
+*.bak

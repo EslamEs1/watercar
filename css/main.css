@@ -1,0 +1,60 @@
+/* WaterCar Premium Arabic Design Tokens */
+
+:root {
+    --primary-color: #0056b3;
+    --primary-light: #e6f0ff;
+    --secondary-color: #00a8ff;
+    --accent-color: #ff9f43;
+    --text-dark: #1a202c;
+    --text-muted: #4a5568;
+    --bg-light: #f7fafc;
+    --white: #ffffff;
+    --transition-fast: 0.2s ease;
+    --transition-slow: 0.5s ease;
+}
+
+body {
+    font-family: 'IBM Plex Sans Arabic', 'Tajawal', sans-serif;
+    color: var(--text-dark);
+    background-color: var(--bg-light);
+    scroll-behavior: smooth;
+}
+
+/* Custom Utilities */
+.glass-effect {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.premium-shadow {
+    box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.05), 0 5px 15px -5px rgba(0, 0, 0, 0.02);
+}
+
+.premium-shadow-hover:hover {
+    box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.05);
+    transform: translateY(-4px);
+    transition: all var(--transition-fast);
+}
+
+/* Smooth Navigation Active State */
+.nav-link.active {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+/* RTL Adjustments for Tailwind utilities where needed */
+[dir="rtl"] .ltr-only {
+    display: none;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}

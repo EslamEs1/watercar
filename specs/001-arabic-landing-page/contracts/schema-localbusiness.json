@@ -1,0 +1,77 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "اسم الشركة",
+  "description": "وصف الشركة - خدمات منزلية احترافية في الرياض والمنطقة المحيطة",
+  "url": "https://example.com",
+  "telephone": "+966-5X-XXX-XXXX",
+  "email": "info@example.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "عنوان الشارع",
+    "addressLocality": "الرياض",
+    "addressRegion": "منطقة الرياض",
+    "postalCode": "XXXXX",
+    "addressCountry": "SA"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "24.7136",
+    "longitude": "46.6753"
+  },
+  "areaServed": [
+    {
+      "@type": "City",
+      "name": "الرياض"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "شمال الرياض"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "جنوب الرياض"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "شرق الرياض"
+    },
+    {
+      "@type": "AdministrativeArea",
+      "name": "غرب الرياض"
+    }
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Sunday",
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday"
+      ],
+      "opens": "08:00",
+      "closes": "22:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Saturday"
+      ],
+      "opens": "10:00",
+      "closes": "20:00"
+    }
+  ],
+  "priceRange": "$$",
+  "image": "https://example.com/assets/images/og-image.webp",
+  "logo": "https://example.com/assets/images/logo.svg",
+  "sameAs": [],
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "150",
+    "bestRating": "5",
+    "worstRating": "1"
+  }
+}
