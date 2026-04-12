@@ -1,4 +1,4 @@
-// WaterCar Premium Landing Page Interactions
+// Water Cart Premium Landing Page Interactions
 
 document.addEventListener('DOMContentLoaded', () => {
     initAccordion();

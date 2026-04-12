@@ -17,7 +17,7 @@
   ===========================================================================
 -->
 
-# WaterCar Landing Page Constitution
+# Water Cart Landing Page Constitution
 
 ## Core Principles
 
